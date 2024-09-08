@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    background-color: rgb(97, 97, 97);
+    padding: 0px;
+    margin: 0px;
+}
+nav a{
+    color: rgb(173, 113, 113);
+    text-decoration: none;
+}
+
+/* .hello{ /*class*/
+   /* color: green;
+} 
+
+#hello{  /*id*/
+   /* color:aqua; 
+} */ /* id over rides class */
+.page-titles{
+    color:#3f2488;
+    font-weight: bold;
+    font-size: large;
+}
