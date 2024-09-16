@@ -1,26 +1,52 @@
-h1{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    border: 1px solid;
+    background-color:aquamarine;
+}
+h2{
+    border-bottom: 2px solid;
+    border-top: 2.8px solid blue;
+    background-color:aliceblue;
+    padding: 10px;
+}
+
+#container{
     text-align: center;
-}
-nav ul{
-    list-style-type: none;
-    background-color: rgb(97, 97, 97);
-    padding: 0px;
-    margin: 0px;
-}
-nav a{
-    color: rgb(173, 113, 113);
-    text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
-/* .hello{ /*class*/
-   /* color: green;
-} 
+.navbar, footer{
+    padding: 20px 0;
+}
 
-#hello{  /*id*/
-   /* color:aqua; 
-} */ /* id over rides class */
-.page-titles{
-    color:#3f2488;
-    font-weight: bold;
-    font-size: large;
+/* Navigation Bar style */
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* center the items horizontally */
+    background-color: #333;
+    
+}
+
+
+.navbar a {
+    text-decoration: none; /* Remove the underline */
+    color: purple; /* Purple text color */
+    padding: 10px 20px; /* Padding inside each menu item */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #444; /* Optional hover effect */
+    border-radius:10px;
+    color: white; /* Change text color on hover */
+    transition: background-color 1s ease;
 }
