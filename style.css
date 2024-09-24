@@ -1,3 +1,6 @@
+
+/* -------------------- stylesheet.css ---------------------*/
+
 *{
     padding: 0;
     margin: 0;
@@ -5,16 +8,47 @@
 
 }
 
+body{
+    background-color: black;
+
+}
+
+h1{
+    font-family: italic;
+}
+
+
+h2{
+    color: white;
+}
+
+
+p{
+    color: white;
+    font-family: sans-serif;
+}
+
+div{
+    color: white;
+    font-family: sans-serif;
+    
+}
+
 section{
     border: 1px solid;
-    background-color:aquamarine;
+    background-color: black;
 }
 h2{
     border-bottom: 2px solid;
-    border-top: 2.8px solid blue;
-    background-color:aliceblue;
+    border-top: 2.8px solid blueviolet;
+    background-color: black;
     padding: 10px;
+    font-family: italic;
+
+    
 }
+
+/* ------------------- Container ---------------------*/
 
 #container{
     text-align: center;
@@ -26,7 +60,7 @@ h2{
     padding: 20px 0;
 }
 
-/* Navigation Bar style */
+/* ------------------ Navigation Bar style------------- */
 .navbar {
     list-style: none;
     display: flex;
@@ -38,7 +72,7 @@ h2{
 
 .navbar a {
     text-decoration: none; /* Remove the underline */
-    color: purple; /* Purple text color */
+    color: blueviolet; /* Purple text color */
     padding: 10px 20px; /* Padding inside each menu item */
     font-size: 18px;
     font-family: Arial, sans-serif;
@@ -50,3 +84,21 @@ h2{
     color: white; /* Change text color on hover */
     transition: background-color 1s ease;
 }
+
+/* ------------------ Portfolio ----------------- */
+
+
+/* ------------------ Skills -------------------- */
+
+
+/* ------------------ Education ----------------- */
+
+
+/* ------------------ Footer -------------------- */
+
+
+
+ 
+/* ---------------------------------------------- */
+/* ------------------ Media Query --------------- */
+/* ---------------------------------------------- */
